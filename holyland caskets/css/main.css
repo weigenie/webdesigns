@@ -3293,3 +3293,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 b,sup, sub, u, del {
 	color: #ee722a;
 }
+
+.contact-us-area {
+  background-color: rgb(0,0,0, 0.1);
+  padding: 10px;
+}
