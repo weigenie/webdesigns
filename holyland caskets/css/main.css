@@ -1882,10 +1882,10 @@ body.mobile-nav-active #mobile-nav-toggle {
       height: 700px !important; } }
 
 .banner-area {
-  background: url(../img/banner.jpg) center;
+  background: url("https://singaporefuneralservices.net/wp-content/uploads/2015/11/Funeral-Singapore-e1447291691854-1024x672.jpg") center;;
   background-size: cover; }
   .banner-area .banner-content {
-    padding: 162px 0; }
+    padding: 70px 0; }
     @media (max-width: 767px) {
       .banner-area .banner-content {
         padding: 150px 0 50px; } }
