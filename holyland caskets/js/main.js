@@ -29,11 +29,12 @@ $(document).ready(function () {
 
     $('.play-btn').magnificPopup({
         type: 'iframe',
+        disableOn: 700,
         mainClass: 'mfp-fade',
         removalDelay: 160,
         preloader: false,
         fixedContentPos: false
-    });
+    });  
 
     //  Tilt Js
     $('.single-feature').tilt({
