@@ -44,7 +44,7 @@
 
 body {
   color: #777777;
-  font-family: "Helvetica", Verdana, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.625em;
@@ -1876,6 +1876,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: url("https://singaporefuneralservices.net/wp-content/uploads/2015/11/Funeral-Singapore-e1447291691854-1024x672.jpg") center;
   height: 775px;
   background-size: cover; }
+  .home-banner-area h1 {
+    font-family: 'Raleway', sans-serif;
+  }
   .home-banner-area .banner-img {
     text-align: right; }
     @media (max-width: 1440px) {

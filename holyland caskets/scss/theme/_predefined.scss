@@ -34,6 +34,7 @@
     h2 {
         margin-bottom: 20px;
         font-size: 36px;
+        color: #ee722a;
         @media (max-width: 413px) {
             font-size: 30px;
         }
@@ -119,7 +120,7 @@
         span {
             font-size: 24px;
             font-weight: 600;
-            font-family: "Helvetica", Verdana, Arial, sans-serif;
+            font-family: 'Raleway', sans-serif;
         }
 	}
 	&.dark {
