@@ -171,11 +171,11 @@ $(document).ready(function () {
     if ($('.testi-slider').length) {
         $('.testi-slider').owlCarousel({
             loop: true,
-            margin: 30,
-            items: 1,
+            margin: 100,
+            items: 3,
             nav: false,
             autoplay: 2500,
-            smartSpeed: 1500,
+            smartSpeed: 1000,
             dots: true,
             responsiveClass: true,
             thumbs: true,

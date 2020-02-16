@@ -654,7 +654,15 @@ td, th {
 .alert-msg {
   color: #008000; }
 
-.p1-gradient-bg, .buttons.gray:hover, .primary-btn, .feature-area .single-feature .title .lnr, .testimonials-area .owl-thumb-item.active .overlay-grad, .testimonials-area .owl-thumb-item .overlay-grad:hover, .single-price:hover .price-btn, .top-category-widget-area .single-cat-widget:hover .overlay-bg, .post-content-area .single-post .primary-btn:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .widget-wrap .newsletter-widget .bbtns, .footer-area .single-footer-widget .click-btn, .footer-area .footer-bottom .footer-social a:hover {
+.testimonials-area {
+  background-color: #000000e3;
+}
+
+.testimonials-area h4 {
+  color: white;
+}
+
+.p1-gradient-bg, .buttons.gray:hover, .primary-btn, .feature-area .single-feature .title .lnr, .owl-thumb-item.active .overlay-grad, .testimonials-area .owl-thumb-item .overlay-grad:hover, .single-price:hover .price-btn, .top-category-widget-area .single-cat-widget:hover .overlay-bg, .post-content-area .single-post .primary-btn:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .widget-wrap .newsletter-widget .bbtns, .footer-area .single-footer-widget .click-btn, .footer-area .footer-bottom .footer-social a:hover {
   background-image: -moz-linear-gradient(0deg, #ee722a 0%, #af4d2f 100%);
   background-image: -webkit-linear-gradient(0deg, #ee722a 0%, #af4d2f 100%);
   background-image: -ms-linear-gradient(0deg, #ee722a 0%, #af4d2f 100%);
@@ -1916,7 +1924,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .home-banner-content h1 {
   font-size: 60px;
-  margin-bottom: 25px; }
+  margin-bottom: 25px; 
+  color: white; }
   @media (max-width: 991.98px) {
     .home-banner-content h1 {
       font-size: 36px; } }
@@ -1927,7 +1936,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     .home-banner-content h1 {
       margin-top: 50px; } }
 .home-banner-content p {
-  margin-bottom: 45px; }
+  margin-bottom: 45px; 
+  color: white; }
 
 .about-area {
   position: relative;
@@ -2067,41 +2077,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 0;
     font-size: 14px; }
 
-.testimonials-area {
-  position: relative; }
-  .testimonials-area.about-page .container::before {
-    display: none; }
-  .testimonials-area .container:before {
-    content: "";
-    position: absolute;
-    left: 17%;
-    bottom: 30px;
-    z-index: -1;
-    width: 240px;
-    height: 240px;
-    background: linear-gradient(to bottom left, transparent 0%, transparent 50%, #ee722a 50%, #854b16 100%);
-    background: -webkit-linear-gradient(to bottom left, transparent 0%, transparent 50%, #ee722a 50%, #854b16 100%);
-    background: -moz-linear-gradient(to bottom left, transparent 0%, transparent 50%, #ee722a 50%, #854b16 100%);
-    background: -ms-linear-gradient(to bottom left, transparent 0%, transparent 50%, #ee722a 50%, #854b16 100%);
-    background: -o-linear-gradient(to bottom left, transparent 0%, transparent 50%, #ee722a 50%, #854b16 100%); }
-    @media (max-width: 991px) {
-      .testimonials-area .container:before {
-        display: none; } }
-  .testimonials-area .owl-thumb-item {
-    margin-right: 20px;
-    position: relative; }
-    .testimonials-area .owl-thumb-item:last-child {
-      margin-right: 0; }
-    .testimonials-area .owl-thumb-item.active .overlay-grad {
-      opacity: .8; }
-    .testimonials-area .owl-thumb-item .overlay-grad {
-      -webkit-transition: all 0.3s ease 0s;
-      -moz-transition: all 0.3s ease 0s;
-      -o-transition: all 0.3s ease 0s;
-      transition: all 0.3s ease 0s;
-      cursor: pointer; }
-      .testimonials-area .owl-thumb-item .overlay-grad:hover {
-        opacity: .8; }
 
 .testi-slider {
   margin: auto; }
@@ -2116,10 +2091,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   .testi-item h4 {
     font-size: 21px;
     font-weight: 700;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px; }
   .testi-item .list {
-    margin-bottom: 35px; }
+    margin-bottom: 0px; }
     .testi-item .list li {
       display: inline-block; }
       .testi-item .list li a {
@@ -2127,6 +2102,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         font-size: 14px; }
   .testi-item p {
     max-width: 605px;
+    font-size: 15px;
     margin: auto; }
 
 .screenshot-area {
@@ -3297,4 +3273,12 @@ b,sup, sub, u, del {
 .contact-us-area {
   background-color: rgb(0,0,0, 0.1);
   padding: 10px;
+}
+
+.form {
+  margin-top: 5px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7px;
 }
