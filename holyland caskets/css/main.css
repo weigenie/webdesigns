@@ -1889,9 +1889,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     @media (max-width: 767px) {
       .home-banner-area .banner-img {
         display: none; } }
-  @media (max-width: 991px) {
-    .home-banner-area .fullscreen {
-      height: 400px !important; } }
 
 .banner-area {
   background: url("https://singaporefuneralservices.net/wp-content/uploads/2015/11/Funeral-Singapore-e1447291691854-1024x672.jpg") center;;
