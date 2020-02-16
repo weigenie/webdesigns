@@ -100,7 +100,7 @@ a, a:focus, a:hover {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #222222;
   line-height: 1.2em !important;
   margin-bottom: 0;
@@ -111,7 +111,7 @@ h4, h5, h6 {
 .h4, .h5, .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   color: #222222; }
 
@@ -723,7 +723,7 @@ td, th {
     .buttons p span {
       font-size: 24px;
       font-weight: 600;
-      font-family: "Poppins", sans-serif; }
+      font-family: "Raleway", sans-serif; }
   .buttons.dark {
     background-color: #000;
     color: #fff !important;
@@ -1742,7 +1742,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-weight: 500;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-transform: capitalize;
   outline: none; }
   .nav-menu a:last-child a {
