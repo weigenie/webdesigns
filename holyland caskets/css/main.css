@@ -634,7 +634,7 @@ td, th {
       margin-bottom: 70px; } }
 
 .section-title {
-  margin-bottom: 80px; }
+  }
   @media (max-width: 991px) {
     .section-title {
       margin-bottom: 40px; } }
@@ -646,10 +646,13 @@ td, th {
         font-size: 30px; } }
   .section-title p {
     font-size: 16px;
-    margin-bottom: 0; }
+    margin-bottom: 15px; }
     @media (max-width: 991.98px) {
       .section-title p br {
         display: none; } }
+        .section-title h3 {
+          margin-top: 15px;
+        }
 
 .alert-msg {
   color: #008000; }
@@ -1871,6 +1874,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .home-banner-area {
   background: url("https://singaporefuneralservices.net/wp-content/uploads/2015/11/Funeral-Singapore-e1447291691854-1024x672.jpg") center;
+  height: 775px;
   background-size: cover; }
   .home-banner-area .banner-img {
     text-align: right; }
@@ -1887,7 +1891,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         display: none; } }
   @media (max-width: 991px) {
     .home-banner-area .fullscreen {
-      height: 700px !important; } }
+      height: 400px !important; } }
 
 .banner-area {
   background: url("https://singaporefuneralservices.net/wp-content/uploads/2015/11/Funeral-Singapore-e1447291691854-1024x672.jpg") center;;
@@ -2074,7 +2078,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 .testi-slider {
-  margin: auto; }
+  margin-left: 1px; }
   .testi-slider .testi-item {
     text-align: center; }
     .testi-slider .testi-item img {
@@ -2082,7 +2086,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       margin: auto; }
 
 .testi-item {
-  margin-bottom: 50px; }
+  margin-bottom: 10px; }
   .testi-item h4 {
     font-size: 21px;
     font-weight: 700;
@@ -2098,7 +2102,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .testi-item p {
     max-width: 605px;
     font-size: 15px;
-    margin: auto; }
+    margin: 10px; }
 
 .screenshot-area {
   position: relative; }
