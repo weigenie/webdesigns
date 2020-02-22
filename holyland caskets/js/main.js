@@ -173,15 +173,23 @@ $(document).ready(function () {
         $('.testi-slider').owlCarousel({
             loop: true,
             margin: 100,
-            items: 3,
-            nav: false,
             autoplay: 2500,
             smartSpeed: 1000,
             dots: true,
             responsiveClass: true,
             thumbs: true,
             thumbsPrerendered: true,
-            navText: ["<i class='lnr lnr-arrow-left'></i>", "<i class='lnr lnr-arrow-right'></i>"]
+            navText: ["<i class='lnr lnr-arrow-left'></i>", "<i class='lnr lnr-arrow-right'></i>"],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav:false
+                },
+                1000: {
+                    items:3,
+                    nav:false
+                }
+            }
         })
     }
 
