@@ -173,8 +173,8 @@ $(document).ready(function () {
         $('.testi-slider').owlCarousel({
             loop: true,
             margin: 100,
-            autoplay: 2500,
-            smartSpeed: 1000,
+            autoplay: true,
+            autoplayTimeout: 3500,
             dots: true,
             responsiveClass: true,
             thumbs: true,
